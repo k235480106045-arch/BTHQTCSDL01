@@ -12,25 +12,25 @@ Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add
 3.	Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
 Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK.
-### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/973cb22b-1aa5-4bdb-822b-403ef1c07976" />
 4.	Cài đặt SQL Server Management Studio
 Link tải SSMS: https://learn.microsoft.com/en-us/ssms/install/install
 5.	Chạy phần mềm ssms để Đăng nhập vào SQL Server bằng 2 cách: Windows Authentication và SQL Server Authentication.
 Servername: localhost,xxxxx (với xxxxx là cổng đã chọn ở bước 2)
-#### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/73823063-7a23-41f7-9a23-1a7a0ebce070" />
 6.	Sử dụng giao diện đồ hoạ của ssms: Tạo cơ sở dữ liệu mới (create database) với tên tuỳ ý, chọn Path (nơi lưu trữ db) cho file lưu dữ liệu và file lưu log ở ổ đĩa khác với ổ C. mở path đã chọn xem 2 file đã tạo ra.
-##### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/d35640e9-9107-48e6-93dd-c82bfd68eb1a" />
 7.	Sử dụng giao diện đồ hoạ của ssms: Tạo bảng dữ liệu (create and design table) với tên bảng tuỳ ý, có các trường dữ liệu phù hợp với dữ liệu của file data mẫu (CSV), với Khoá chính (Primary Key) là trường masv
-###### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/3f25d757-683f-4352-92e0-441257f59389" />
 8.	Sử dụng giao diện đồ hoạ của ssms: Tìm cách import dữ liệu từ file mẫu vào trong bảng vừa tạo.
-####### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f9e7e0da-c387-40ad-a165-69e42bab6ffb" />
 9.	Mở cửa sổ mới để gõ lệnh trong ssms: GÕ lệnh để kiểm tra xem số dòng của bảng dữ liệu sau khi import, kết quả ok sẽ khoảng 12020 dòng.
-######### Hình minh họa
+## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/a713c066-6d02-4af4-957d-a84701b950cd" />
 10.	Trong cửa sổ mới để gõ lệnh: Gõ lệnh để thêm (insert) 1 row vào bảng, với dữ liệu là thông tin cá nhân của sv đang làm bài (mỗi sv sẽ luôn khác nhau ở bước này).
 ## Hình minh họa
