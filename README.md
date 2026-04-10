@@ -12,6 +12,7 @@ Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add
 3.	Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
 Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK.
+
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/973cb22b-1aa5-4bdb-822b-403ef1c07976" />
 4.	Cài đặt SQL Server Management Studio
