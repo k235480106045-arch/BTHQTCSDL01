@@ -7,7 +7,7 @@ MSSV: K235480106045
 
 Lớp: K59KMT.K01
 
-1.	Download và cài đặt SQL Server 2025, phiên bản Developer
+1. Download và cài đặt SQL Server 2025, phiên bản Developer
 Chọn phiên bản SQL Server 2025 Developer
 Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add Current User) và SQL Server Authentication (username mặc định là sa, chỉ cần nhập mật khẩu 123 , nhớ nhập 2 chỗ: Enter password và Confirm password)
 
