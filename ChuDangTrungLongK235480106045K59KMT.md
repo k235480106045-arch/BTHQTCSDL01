@@ -20,11 +20,10 @@ Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add
 3.	Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
 Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK.
+
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/973cb22b-1aa5-4bdb-822b-403ef1c07976" />
-
-4.	Cài đặt SQL Server Management Studio
-Link tải SSMS: https://learn.microsoft.com/en-us/ssms/install/install
+4.	Cài đặt SQL Server Management Studio (đã cài đặt trước đó)
 5.	Chạy phần mềm ssms để Đăng nhập vào SQL Server bằng 2 cách: Windows Authentication và SQL Server Authentication.
 Servername: localhost,xxxxx (với xxxxx là cổng đã chọn ở bước 2)
 
@@ -75,6 +74,10 @@ Servername: localhost,xxxxx (với xxxxx là cổng đã chọn ở bước 2)
 ## Hình minh họa
 <img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/542fffe2-b2fb-45db-83ec-50c508e8b942" />
 17.	upload file dulieu.sql lên github repository của em (repository mà em đang edit file README.md)
+
+## Hình minh họa
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/844345fb-9da0-430d-a67f-89158550dafd" />
+
 
 
 
