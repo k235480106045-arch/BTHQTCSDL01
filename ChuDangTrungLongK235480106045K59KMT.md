@@ -10,18 +10,19 @@ Lớp: K59KMT.K01
 1.	Download và cài đặt SQL Server 2025, phiên bản Developer
 Chọn phiên bản SQL Server 2025 Developer
 Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add Current User) và SQL Server Authentication (username mặc định là sa, chỉ cần nhập mật khẩu 123 , nhớ nhập 2 chỗ: Enter password và Confirm password)
+
 ## Hình minh họa
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/85cae8cf-aecc-4efc-921c-57ed992b2b98" />
-
-3.	Cấu hình cho SQL Server làm việc ở cổng động (Dynamic Port), TCP: enable+active yes cho 127.0.0.1, chọn cổng động là 3xxxx với xxxx là 4 số cuối của mã số sv, (nếu cổng này đã mở sẵn trước đó bởi 1 ứng dụng khác thì chọn cổng là 4xxxx hoặc 5xxxx)
+2.	Cấu hình cho SQL Server làm việc ở cổng động (Dynamic Port), TCP: enable+active yes cho 127.0.0.1, chọn cổng động là 3xxxx với xxxx là 4 số cuối của mã số sv, (nếu cổng này đã mở sẵn trước đó bởi 1 ứng dụng khác thì chọn cổng là 4xxxx hoặc 5xxxx)
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/a2d61038-23b4-4cdf-9b17-cabeb1621c76" />
+
 3.	Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
 Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK.
-
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/973cb22b-1aa5-4bdb-822b-403ef1c07976" />
+
 4.	Cài đặt SQL Server Management Studio
 Link tải SSMS: https://learn.microsoft.com/en-us/ssms/install/install
 5.	Chạy phần mềm ssms để Đăng nhập vào SQL Server bằng 2 cách: Windows Authentication và SQL Server Authentication.
