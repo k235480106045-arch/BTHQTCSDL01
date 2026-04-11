@@ -69,11 +69,11 @@ Sử dụng giao diện đồ hoạ của ssms: Xoá csdl đã tạo, sau khi xo
 
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/7767d313-e1f4-4229-80a2-74180428a1d7" />
-16.	Tạo cửa sổ mới để gõ lệnh: mở file dulieu.sql của bước 15, chạy toàn bộ các lệnh này. REFRESH lại cây liệt kê các database => kiểm chứng kết quả được tạo ra tương đương với các bước 6,7,8,9,10,11,12,13.
+Tạo cửa sổ mới để gõ lệnh: mở file dulieu.sql của bước 15, chạy toàn bộ các lệnh này. REFRESH lại cây liệt kê các database => kiểm chứng kết quả được tạo ra tương đương với các bước 6,7,8,9,10,11,12,13.
 
 ## Hình minh họa
 <img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/542fffe2-b2fb-45db-83ec-50c508e8b942" />
-upload file dulieu.sql lên github repository của em (repository mà em đang edit file README.md)
+Upload file dulieu.sql lên github repository của em (repository mà em đang edit file README.md)
 
 ## Hình minh họa
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/844345fb-9da0-430d-a67f-89158550dafd" />
