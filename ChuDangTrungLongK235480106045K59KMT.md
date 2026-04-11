@@ -50,7 +50,7 @@ Servername: localhost,xxxxx (với xxxxx là cổng đã chọn ở bước 2)
 
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/16aeb15a-86df-4109-b515-05ec6059bf14" />
-13.	Trong cửa sổ mới để gõ lệnh: Gõ lệnh xoá (delete) trong bảng SaoHoa những sinh viên cùng họ với em, vd em họ nguyễn thì xoá những sv họ Chu.
+13.	Trong cửa sổ mới để gõ lệnh: Gõ lệnh xoá (delete) trong bảng SaoHoa những sinh viên cùng họ với em, em họ Chu thì xoá những sv họ Chu.
 
 ## Hình minh họa
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/931f8f2e-d92d-4b81-a68f-d7c7844f111e" />
