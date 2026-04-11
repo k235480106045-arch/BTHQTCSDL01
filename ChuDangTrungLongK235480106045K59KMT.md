@@ -2,7 +2,9 @@
 BÀI TẬP MÔN HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU
 
 Họ và tên: Chu Đặng Trung Long
+
 MSSV: K235480106045
+
 Lớp: K59KMT.K01
 
 1.	Download và cài đặt SQL Server 2025, phiên bản Developer
